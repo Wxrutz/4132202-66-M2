@@ -13,6 +13,7 @@
 </head>
 <body>
     <p>HelloDocker</p>
+<<<<<<< HEAD
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/
 jquery.min.js"></script>
@@ -22,3 +23,47 @@ jquery.min.js"></script>
 </body>
 </html>
  
+=======
+</body>
+</html>
+ 
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/
+jquery.min.js"></script>
+
+<script>
+    var num = 10;
+    let name = "warut"
+    age = 21
+    const year = 2002
+
+    console.log(year)
+
+    fruit = ["banana","apple","orange"];
+
+    console.log(fruit);
+
+    plant = {fruit:"banana",car:"nissan",color: "orange"}
+
+    console.log(plant);
+
+    dataJson = {
+        employee:[{name: "warut"},{age: 21},{year: 2002}],
+    };
+
+    console.log(dataJson.employee[0].name);
+
+    let msg = name +" "+ year;
+    msg = `${name} ${year}`;
+    
+    console.log(msg);
+
+    document.getElementById('title').innerHTML=msg;
+
+    $(function(){
+        $("#title")
+        .html(msg+"jQuery")
+        .addClass("red");
+    });
+
+</script>
+>>>>>>> 66881e993baafccd94676b933a8ef6a2ee9280a6
